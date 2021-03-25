@@ -3,11 +3,14 @@
     margin: 0;
     font-size: 10px;
 }
-.cabeza{
+.contenedor{
     background-color: black;
-    background-size: cover;
-    height: 12rem;
+    height: 100vh;
+    width: 100%;
     padding: 0;
+}
+.cabeza{
+    position: relative;
 }
 .orejas{
     display: flex;
@@ -31,17 +34,8 @@ div img{
 
 .raton{
     height: 8rem;
-    position: relative;
-    top: 1rem;
-    left: 5rem;
-    top: 31rem;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
 }
 /* ------------------------------------------------------------------------ */
-.homer{
-    background-color: black;
-    
-    width: 100%;
-    height: 30rem;
-    padding: 0;
-    margin: 0;
-}

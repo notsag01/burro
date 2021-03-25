@@ -4,7 +4,8 @@
     font-size: 10px;
 }
 .cabeza{
-    background-color: aqua;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVMLnPpIMc0qHXe6TurJc9-BNXoJAQqvw9RQ&usqp=CAU);
+    background-size: cover;
     height: 12rem;
     padding: 0;
 }
@@ -20,6 +21,7 @@ div img{
 .azul{
     position: relative;
     top: 1rem;
+    filter: drop-shadow(20px 20px 50px white);
 }
 .cola{
     position: relative;

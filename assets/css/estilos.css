@@ -3,18 +3,18 @@
     margin: 0;
     font-size: 10px;
 }
+.contenedor{
+    width: 100vh;
+}
 .cabeza{
     background-color: black;
-    background-size: cover;
-    height: 12rem;
+    height: 100vh;
     width: 100%;
-    padding: 0;
 }
 .orejas{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px;
     width: 100%;
 }
 div img{
@@ -22,28 +22,21 @@ div img{
 }
 .azul{
     position: relative;
-    top: 1rem;
+    top: -60rem;
     filter: drop-shadow(20px 20px 50px white);
 }
 .cola{
     position: relative;
     right: 20rem;
-    bottom: 5rem;   
+    top: -66rem;   
 }
-
+.queso{
+    position: relative;
+}
 .raton{
     height: 8rem;
     position: relative;
-    top: 1rem;
     left: 5rem;
-    top: 31rem;
+    bottom: -68.5rem;
 }
 /* ------------------------------------------------------------------------ */
-.homer{
-    background-color: black;
-    
-    width: 100%;
-    height: 30rem;
-    padding: 0;
-    margin: 0;
-}

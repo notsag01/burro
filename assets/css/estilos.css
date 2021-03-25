@@ -7,6 +7,7 @@
     background-color: black;
     background-size: cover;
     height: 12rem;
+    width: 100%;
     padding: 0;
 }
 .orejas{
@@ -14,6 +15,7 @@
     justify-content: center;
     align-items: center;
     padding: 0px;
+    width: 100%;
 }
 div img{
     border-radius: 50%;

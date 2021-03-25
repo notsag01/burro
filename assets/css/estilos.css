@@ -4,7 +4,7 @@
     font-size: 10px;
 }
 .cabeza{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVMLnPpIMc0qHXe6TurJc9-BNXoJAQqvw9RQ&usqp=CAU);
+    background-color: black;
     background-size: cover;
     height: 12rem;
     padding: 0;
@@ -26,12 +26,22 @@ div img{
 .cola{
     position: relative;
     right: 20rem;
-    bottom: 5rem;
-    
+    bottom: 5rem;   
 }
+
 .raton{
     height: 8rem;
     position: relative;
     top: 1rem;
-    left: -20rem;
+    left: 5rem;
+    top: 31rem;
+}
+/* ------------------------------------------------------------------------ */
+.homer{
+    background-color: black;
+    
+    width: 100%;
+    height: 30rem;
+    padding: 0;
+    margin: 0;
 }

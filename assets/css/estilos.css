@@ -61,6 +61,21 @@ div img{
     height: 70rem;
 }
 .madera{
-    text-align: center;
-    
+    text-align: center; 
+}
+/* --------------------------------------------------------------------------- */
+.tierra{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.agua{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.agua .tierra{
+    max-height: 16rem;
+    max-width: 60rem;
 }

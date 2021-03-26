@@ -41,13 +41,34 @@ div img{
     right: 0%;
 }
 /* ------------------------------------------------------------------------ */
-.firma{
-    position: relative;
+.divisor{
+   
+    border: 0; 
+    height: 0; 
+    box-shadow: 0 100px 100px 30px black;
 }
-.vale{
-    position: absolute;
-    top: 50rem;
-    right: 0rem;
+.divisor2{
+    border: 3px solid yellow; border-radius: 300px/10px; height: 0px; text-align: center;
+}
+/* ---------------------------------------------------------------------- */
+.navegador{
+    
+    background-color: aqua;
+}
+.logo{
     font-size: 5rem;
-    color: black;
+}
+.titulo{
+    font-size: 4rem;
+    display: inline-flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 1rem;
+}
+.botonazo{
+    position: absolute;
+    left: 100px;
+}
+.botonardo{
+    position: relative;
 }

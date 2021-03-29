@@ -4,7 +4,7 @@
     font-size: 16px;
 }
 nav{
-    height: 100%;
+    
 }
 nav img{
     border-radius: 50%;
@@ -16,7 +16,7 @@ nav img{
     margin: 1rem;
 }
 hr{
-    box-shadow: 2px 2px 100px gray !important;
-    width: 80%;
-     
+    border: 0;
+    box-shadow: 20px 20px 100px gray inset;
+    width: 80%;  
 }

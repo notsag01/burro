@@ -1,41 +1,22 @@
-*{
+.bodys{
     padding: 0;
     margin: 0;
-    font-size: 10px;
+    font-size: 16px;
 }
-.contenedor{
-    background-color: black;
-    height: 100vh;
-    width: 100%;
-    padding: 0;
+nav{
+    height: 100%;
 }
-.cabeza{
-    position: relative;
-}
-.orejas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-}
-div img{
+nav img{
     border-radius: 50%;
+    height: 9.38rem;
+    margin: 1rem;
 }
-.azul{
-    position: relative;
-    top: 1rem;
-    filter: drop-shadow(20px 20px 50px white);
+.redes{
+    padding: 1rem;
+    margin: 1rem;
 }
-.cola{
-    position: relative;
-    right: 20rem;
-    bottom: 5rem;   
+hr{
+    box-shadow: 2px 2px 100px gray !important;
+    width: 80%;
+     
 }
-
-.raton{
-    height: 8rem;
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
-}
-/* ------------------------------------------------------------------------ */

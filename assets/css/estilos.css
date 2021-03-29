@@ -1,16 +1,17 @@
 *{
     padding: 0;
     margin: 0;
-    font-size: 10px;
+    font-size: 16px;
 }
 .contenedor{
-    background-color: black;
     height: 100vh;
     width: 100%;
     padding: 0;
 }
 .cabeza{
     position: relative;
+    background-color: black;
+    height: 8rem;
 }
 .orejas{
     display: flex;
@@ -28,8 +29,8 @@ div img{
 }
 .cola{
     position: relative;
-    right: 20rem;
-    bottom: 5rem;   
+    right: 12rem;
+    bottom: 3rem;   
 }
 
 .raton{
